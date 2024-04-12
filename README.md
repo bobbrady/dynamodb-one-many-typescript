@@ -11,10 +11,7 @@ Simple project that models a one-to-many relationship in AWS DynamoDB
 To compile and run:
 
 ```bash
-npx tsc
-node dist/yourEntryPoint.js
-
 export AWS_PROFILE=<Your AWS PROFILE NAME HERE>
-npx tsc
-node dist/dynamodb-table-ops.ts
+# Clean, build, and run dist/index.js
+npm start
 ```
