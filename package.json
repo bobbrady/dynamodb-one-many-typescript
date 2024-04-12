@@ -1,0 +1,25 @@
+{
+  "name": "dynamodb-crud-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -Rf dist && tsc",
+    "start": "rm -Rf dist && tsc && node dist/index.js",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/uuid": "^9.0.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.538.0",
+    "@aws-sdk/lib-dynamodb": "^3.538.0",
+    "uuid": "^9.0.1"
+  }
+}
